@@ -1,0 +1,25 @@
+const POSITION = 'A001' // 직금
+const DEPARTMENT = 'A002' // 부서
+const DAY = 'A003' // 요일
+const HOLIDAY = 'A004' // 휴일구분
+const VACATION = 'A005' // 근태
+const STATE = 'A006' // 상태
+const APPROVAL_TYPE = 'A007' // 결재종류
+const APPROVAL_REF = 'A008' // 결재참조
+const APPROVAL_STATE = 'A009' // 결재상태
+const APPROVAL_CODE = 'A010' // 결재코드
+const CEO = 'A011' // 대표이사
+
+export default {
+  POSITION: POSITION,
+  DEPARTMENT: DEPARTMENT,
+  DAY: DAY,
+  HOLIDAY: HOLIDAY,
+  VACATION: VACATION,
+  STATE: STATE,
+  APPROVAL_TYPE: APPROVAL_TYPE,
+  APPROVAL_REF: APPROVAL_REF,
+  APPROVAL_STATE: APPROVAL_STATE,
+  APPROVAL_CODE: APPROVAL_CODE,
+  CEO: CEO
+}

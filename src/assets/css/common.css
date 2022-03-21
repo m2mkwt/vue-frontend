@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+/* =============== Common =============== */
+* {padding:0; margin:0; font-size:16px; font-family:'맑은 고딕','Malgun Gothic','Apple SD Gothic Neo',Dotum,'돋움',sans-serif; letter-spacing:-0.5px;}
+img {border:0; vertical-align:middle}
+body {font-size:16px; font-weight:normal}
+nav,ol,ul {list-style:none}
+form, fieldset{margin:0; padding:0; border:none}
+caption ,legend{display:none}
+strong {font-weight:bold}
+/* Box */
+*,html {box-sizing:border-box}
+*, *:before, *:after {box-sizing:border-box}
+/* Link */
+a {font-family:'맑은 고딕','Malgun Gothic','Apple SD Gothic Neo',Dotum,'돋움',sans-serif; color:#333; text-decoration:none}
+a:hover,a:active,a:focus {text-decoration:none}
+/* blind */
+.blind {overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+/* =============== table =============== */
+table {width:100%; background:#fff; border-collapse:collapse}
+table thead th,table tbody th,table tbody td {background:transparent}
+
+/* =============== Form =============== */
+form, fieldset {margin:0; padding:0; border:0}
+input,button,select,textarea {font-family:inherit}
+input[type=button],button,label {cursor:pointer}
+input[type=text],input[type=password],input[type=search],select {display:inline-block; min-width:100px; height:35px; padding:5px 10px; font-size:16px; border:1px solid #ccc; margin-right:10px; vertical-align:middle; color:#333}
+input:focus,select:focus,textarea:focus {outline:0; border-color:#333}
+textarea {width:100%; height:200px; padding:10px; font-size:16px; line-height:20px; border:1px solid #ccc; resize:none; color:#333}
+input[type=text]::-ms-clear,input[type=text]::-ms-reveal {display:none; width:0; height:0}
+input[type=password]::-ms-clear,input[type=password]::-ms-reveal {display:none; width:0; height:0}
+input[type=checkbox] {width:16px; height:16px; vertical-align:middle}
+label {margin-right:5px}
+
+/* placeholder */
+::-webkit-input-placeholder {color:#bbb !important}
+:-moz-placeholder {color:#bbb !important}
+::-moz-placeholder {color:#bbb !important}
+:-ms-input-placeholder {color:#bbb !important}
+
+/* position */
+.fl {float:left !important}
+.fr {float:right !important}
+.clearfix{display:block; clear:both; content:''}
+.clear {clear:both !important}
+
+/* display */
+.d-bl {display:block !important}
+.d-ib {display:inline-block !important}
+.d-in {display:inline!important}
+
+/* text align */
+.t-left {text-align:left !important}
+.t-center {text-align:center !important}
+.t-right {text-align:right !important}
+.ellipsis{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+
+/* text color */
+.t-black {color:#333 !important}
+.t-black-l {color:#666 !important}
+.t-white {color:#fff !important}
+.t-gray {color:#999 !important}
+.t-red {color:#ff0000 !important}
+.t-blue {color:#288ecc !important}
+
+/* bg color */
+.bg-black {background-color:#333 !important}
+.bg-white {background-color:#fff !important}
+.bg-gray {background-color:#eee !important}
+.bg-gray-l {background-color:#f7f7f7 !important}
+.bg-red {background-color:#e53e3e !important; color:#fff; font-size:14px; padding:4px;}
+.bg-blue {background-color:#4299e1 !important; color:#fff; font-size:14px; padding:4px;}
+.bg-indigo {background-color:#667eea !important; color:#fff; font-size:14px; padding:4px;}
+.bg-teal {background-color:#38b2ac !important}
+.bg-pink {background-color:#ed64a6 !important}
+.bg-orange {background-color:#ed9864 !important}
+
+/* width */
+.wp5 {width:5% !important}
+.wp10 {width:10% !important}
+.wp15 {width:15% !important}
+.wp20 {width:20% !important}
+.wp25 {width:25% !important}
+.wp30 {width:30% !important}
+.wp35 {width:35% !important}
+.wp40 {width:40% !important}
+.wp45 {width:45% !important}
+.wp50 {width:50% !important}
+.wp55 {width:55% !important}
+.wp60 {width:60% !important}
+.wp65 {width:65% !important}
+.wp70 {width:70% !important}
+.wp75 {width:75% !important}
+.wp80 {width:80% !important}
+.wp85 {width:85% !important}
+.wp90 {width:90% !important}
+.wp95 {width:95% !important}
+.wp100 {width:100% !important}
+
+/* margin */
+.mg0 {margin:0 !important}
+.mt0 {margin-top:0 !important}
+.mt5 {margin-top:5px !important}
+.mt10 {margin-top:10px !important}
+.mt20 {margin-top:20px !important}
+.mt30 {margin-top:30px !important}
+.mt40 {margin-top:40px !important}
+.mt50 {margin-top:50px !important}
+
+/* =============== Button =============== */
+.btn-area {margin:20px 0; text-align:center}
+.btn-area a,.btn-area button {margin:0 1px}
+
+/* button default */
+.btn {display:inline-block; font-size:14px; font-weight:bold; padding:6px 15px; text-align:center; margin-left:5px; border:1px solid #bbb; background:#fff; color:#333; outline:0; cursor:pointer}
+.btn:hover,.btn:active,.btn:focus {border:1px solid #000; background-color:#f7f7f7}
+
+/* button color */
+.btn-black {border-color:#333; background-color:#333; color:#fff}
+.btn-black:hover,.btn-black:active,.btn-black:focus {border-color:#444; background-color:#444}
+.btn-gray {border-color:#666;  background-color:#666; color:#fff}
+.btn-gray:hover,.btn-gray:active,.btn-gray:focus {border-color:#777;  background-color:#777}
+.btn-blue {border-color:#288ecc; background-color:#288ecc; color:#fff}
+.btn-blue:hover,.btn-blue:active,.btn-blue:focus {border-color:#359cda; background-color:#359cda}
+.btn-dis {border-color:#ddd;  background-color:#ddd; color:#999}
+.btn-dis:hover,.btn-dis:active,.btn-dis:focus {border-color:#ddd; background-color:#ddd}
+
+html, body {height:100%}
+*html #wrap {height:100%}
+/* =============== Layout =============== */
+#wrap {position:relative; min-width:1200px; height:100%}
+#header {background-color:#288ecc;}
+#container {position:absolute; top:61px; bottom:34px; left:0; right:0; width:100%;}
+#contents {position:relative; height:100%; padding-left:220px;}
+#footer {position:absolute; left:0; right:0; bottom:0; width:100%; padding:8px; background-color:#bbb;}
+.conts-area {position:absolute; top:0; bottom:0; left:220px; right:0; overflow:auto; padding:30px}
+
+/* =============== gnb =============== */
+#header:after {display:block; clear:both; content:''}
+h1.logo {float:left; width:220px; height:61px; background-color:#fff}
+h1.logo img {padding:18px 0 0 24px}
+.gnb {float:left}
+.gnb ul {}
+.gnb ul:after {display:block; clear:both; content:''}
+.gnb ul li {float:left}
+.gnb ul li a {display:block; font-weight:bold; padding:20px 40px; color:#fff}
+.gnb ul li a:hover,.gnb ul li a:active {background-color:#1b71a6; color:#fff}
+
+/* =============== snb =============== */
+.snb {position:absolute; top:0; left:0; bottom:0; width:220px; border-top:1px solid #eee; overflow:auto; background-color:#f4f4f4; z-index:10}
+.snb ul {}
+.snb ul li {}
+.snb ul li a {display:block; padding:15px; font-size:14px}
+.snb ul li a:hover,.snb ul li a:active,.snb ul li a:hover,.snb ul li a.active {background-color:#555; color:#fff}
+
+/* =============== footer =============== */
+#footer p {font-size:14px; text-align:center; color:#fff}
+
+/* =============== login =============== */
+#loginWrap {height:100%; padding-top:170px; background-color:#f4f4f4}
+.login-logo {text-align:center; margin-bottom:30px}
+.login-area {width:450px; padding:40px; border-radius:10px; margin:0 auto; background-color:#fff}
+.login-area .login-form {}
+.login-area .login-form li {margin:20px 0}
+.login-area .login-form li:nth-child(1) {margin-top:0}
+.login-area .login-form li:nth-child(3) {margin-bottom:0}
+.login-area .login-form label {display:block; font-size:16px; margin-bottom:10px}
+.login-area .login-form input[type=text],.login-area .login-form input[type=password] {display:block; width:100%; height:50px; padding:10px}
+.login-area .login-form input[type=text]:focus,.login-area .login-form input[type=password]:focus {outline:0; border-color:#333}
+.btn-login {width:100%; height:50px; line-height:50px; padding:0; font-size:18px; font-weight:normal; border:1px solid #288ecc; background-color:#288ecc; color:#fff}
+.btn-login:hover,.btn-login:active,.btn-login:focus {border:1px solid #359cda; background-color:#359cda}
+
+/* =============== Contents =============== */
+.conts-tit {}
+.conts-tit h2 {font-size:24px; font-weight:bold; padding-bottom:10px; border-bottom:1px solid #ddd}
+
+/* list top area >> input, button */
+.list-top-area {margin-top:30px; padding:15px 10px; background-color:#f7f7f7}
+.list-top-area:after {display:block; clear:both; content:''}
+.list-top-area .ml10 {margin-left:10px}
+/* table list area */
+.tbl-area {table-layout:fixed}
+.tbl-area .tbl {table-layout:fixed; margin-top:10px}
+.tbl-area .tbl thead th,.tbl-area .tbl tbody th,.tbl-area .tbl tbody td {text-align:center; padding:10px; border:1px solid #ddd; word-break:keep-all; word-wrap:break-word}
+.tbl-area .tbl thead th {background-color:#888; color:#fff}
+.tbl-area .tbl .pd50 {padding:50px}
+/* table detail area */
+.tbl-area .tb-detail {margin-top:30px}
+.tbl-area .tb-detail thead th,.tbl-area .tb-detail tbody th,.tbl-area .tb-detail tbody td {padding:10px; border:1px solid #ddd}
+.tbl-area .tbl tbody th {background-color:#f4f4f4}
+.tbl-area .tbl tbody td {}
+.tbl-area .tbl.t2 tbody td {text-align:left}
+.tbl-area .tbl.t2 tbody td:first-child,.tbl-area .tbl.t2 tbody td:last-child {background-color:#f7f7f7}
+.tbl-area .tbl.t2 tbody td:first-child div:first-child,.tbl-area .tbl.t2 tbody td:last-child div:first-child {color:#ff0000}
+
+.text-box {margin-left:10px; padding:5px 10px; border:1px solid #ddd}
+.s-box {color:#288ecc; margin:0 5px}
+
+/* calendar */
+.vcal-area {position:relative; height:35px; border:1px solid #ddd; background:#fff url(../images/ico_calendar.png) 96% center no-repeat}
+.vcal-area .vc-rounded {border-radius:0; border:0; background:0}
+.vcal-area input {padding-right:35px; cursor:pointer}
+.vcal-area .vc-text-base {padding-top:7px}
+.vcal-area.t2 .vc-text-base {padding:7px 20px 7px 5px}
+.mr30 {margin-right:20px}
+.s-h {float:left; display:block; margin:0 10px; padding-top:8px}
+.vc-grid-focus {border-bottom:1px solid #fff !important; color:#fff !important}
+
+.day-plan {font-size:14px; padding:4px; color:#fff}
+.flex {height:100%; overflow:hidden}
+.flex .flex-grow {text-align:center; overflow-y:scroll; overflow-x:auto}
+.color-sample {margin-top:30px;}
+.color-sample ul {margin-top:10px}
+.color-sample li {display:inline-block; margin-right:10px}
+.color-sample li span {font-size:14px}
+.color-sample li .c-box {display:inline-block; padding:5px 10px; color:#fff}
+.font-dark-style {color:#666; font-size:14px; padding:4px;}
+.font-red-style {color:#ff0000; font-size:14px; padding:4px;}
+
+/* plando list */
+.plando-list {}
+.plando-list li {margin-top:20px}
+.plando-list li:first-child {margin-top:0}
+.p-dl {}
+.p-dl dt {font-weight:bold; margin-bottom:5px; padding-left:8px; background:url(../../assets/images/bul_dt.png) 0 9px no-repeat}
+.p-dl dd {font-size:14px; padding-left:10px; margin-bottom:3px; padding-left:15px; background:url(../../assets/images/bul_dd.png) 8px 9px no-repeat; color:#666}
+.tbl-plando-week {margin-top:30px}
+.tbl-plando-week .tbl {float:left; width:49.5%; margin-right:1%}
+.tbl-plando-week .tbl:nth-child(2n) {margin-right:0}
+.tbl-plando-week .tbl thead th {font-size:14px; padding:5px; border:1px solid #daf0fe; background-color:#e5f5fe}
+.tbl-plando-week .tbl tbody th,.tbl-plando-week .tbl tbody td {font-size:14px; text-align:center; border:1px solid #ddd; padding:10px 2px}
+.tbl-plando-week .tbl .bg-gray {background-color:#ccc}
+.mg10 {margin:0 10px}
+.wp49 {width:49%}
+.ml2 {margin-right:2%}
+.mb10 {margin-bottom:10px}
+.cursor {cursor:pointer}
+
+
+/* 부서별 업무실적 조회 수정 */
+.list-plando {margin-top:30px}
+.list-plando .head-area {}
+.list-plando .head-area .head1 {}
+.list-plando .head-area .head1:after {display:block; clear:both; content:''}
+.list-plando .head-area .head1 li {float:left; font-weight:bold; text-align:center; padding:5px; border-right:1px solid #ddd; background-color:#999; color:#fff}
+.list-plando .head-area .head1 li:nth-child(1) {width:8%; text-indent:-9999px}
+.list-plando .head-area .head1 li:nth-child(2) {width:48%}
+.list-plando .head-area .head1 li:nth-child(3) {width:44%}
+.list-plando .head-area .head2 {}
+.list-plando .head-area .head2:after {display:block; clear:both; content:''}
+.list-plando .head-area .head2 li {float:left; font-weight:bold; text-align:center; padding:5px; border-top:1px solid #ddd; border-right:1px solid #ddd; background-color:#999; color:#fff}
+.list-plando .head-area .head2 li:nth-child(1) {width:8%}
+.list-plando .head-area .head2 li:nth-child(2) {width:28%}
+.list-plando .head-area .head2 li:nth-child(3) {width:10%}
+.list-plando .head-area .head2 li:nth-child(4) {width:10%}
+.list-plando .head-area .head2 li:nth-child(5) {width:28%}
+.list-plando .head-area .head2 li:nth-child(6) {width:10%}
+.list-plando .head-area .head2 li:nth-child(7) {width:6%}
+.list-plando .tbl-body th {border:1px solid #ddd; padding:5px; background-color:#999; color:#fff}
+.list-plando .tbl-body td {position:relative; border:1px solid #ddd; text-align:center; vertical-align:top}
+.list-plando .tbl-body td:first-child {padding:8px}
+.list-plando .tbl-list {table-layout:fixed}
+.list-plando .tbl-list td {padding:8px; border:0; word-break:keep-all; word-wrap:break-word}
+.list-plando .tbl-list td:first-child {text-align:left}
+.list-plando .tbl-list tr {border-bottom:1px solid #ddd}
+.list-plando .tbl-list tr:last-child {border-bottom:0}
+.list-plando .tbl-list.t2 tr {}
+.list-plando .tbl-list.t2 td {border-right:0}
+.list-plando .tbl-list tr:nth-child(1) {border-top:0 !important}
+.list-plando .tbl-body .line {position:absolute; top:0; bottom:0; width:1px; height:100%; background-color:#ddd}
+.list-plando .tbl-body .line.t1 {left:63.7%}
+.list-plando .tbl-body .line.t2 {left:81.8%}
+.list-plando .tbl-body .line.t3 {left:58.4%}
+.list-plando .tbl-body .line.t4 {left:75%}
